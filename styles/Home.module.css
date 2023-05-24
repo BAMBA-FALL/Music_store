@@ -1,0 +1,307 @@
+.body{
+  background: linear-gradient(to right, #4d1111, rgb(241, 234, 234), #19194e);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  
+}
+
+
+/******************** LA PREMIERE PARTIE HEADER ET BACKGROUND + BARRE SON *****************/
+.header {
+    background-image: url('../public/images/background.png');
+    background-size: cover;
+    width: 100%; 
+    height: 700px;
+    position: relative;
+  }
+
+
+  .implosive{
+    position: absolute;
+    color: white;
+    left: 50px;
+    bottom: 50px;
+  }
+  .implosiv{
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+   justify-content: space-between;
+    color: white;
+    padding-top: 30px;
+  }
+
+  .music_store{
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 400;
+  }
+
+
+.font_droite ul{
+    list-style-type: none;
+  }
+  .font_droite li{
+    display: inline-block;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 50px;
+     
+   
+  }
+
+  .font_droite li:hover{
+    color: grey;
+    transition: ease-in .5s;
+  }
+  
+
+  .font_gauche li{
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 50px;
+   
+  } 
+
+  .font_gauche li:hover{
+    color: grey;
+    transition: ease-in .5s;
+  }
+  
+
+
+  .buy{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: .5px solid white;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.281);
+  }
+  .discover{
+    position: absolute;
+    bottom: 50px;
+    right: 250px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: .0 solid white;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+  }
+  
+  .buy:hover{
+    background-color: rgba(128, 128, 128, 0.479);
+    color: black;
+    border: 0;
+    transition: ease-in .3s;
+  }
+  .discover:hover{
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    border: .5px solid white;
+    transition: ease-in .5s;
+  }
+
+  .btnsoundbar{
+    width: 150px;
+    height: 50px;
+    margin: 30px 0;
+    background-color: #000;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btnsoundbar:hover{
+  background-color: rgba(128, 128, 128, 0.144);
+  color: #a8a8a8;
+  border: 1px solid grey;
+  /* transition: ease-in-out 1s; */
+  transition: ease-in 1s;
+ 
+}
+
+
+  .textsoundbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+  }
+
+  .titre1{
+    font-size: 12px;
+    
+  }
+  .titre1{
+    font-size: 16px;
+    margin: 10 0;
+  }
+
+  .texte{
+    font-size: 12px;
+  }
+  
+  .span{
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+  
+
+
+/******************************** MA DEUXIEME PARTIE LES QUATRES IMAGES **********************/
+
+.mesimages{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.soundbar{
+    display: flex;
+    width: 80vw;
+    height: 40vh;
+    background-image: url(../public/soundbar.png);
+    background-size: cover;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.produit1{
+    width: 40vw;
+    height: 80vh;
+    flex-wrap: wrap;
+    color: #000;
+    margin: 15px;
+    background-image: url(../public/phantom1.png);
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+
+.produit2{
+    width: 40vw;
+    height: 80vh;
+    flex-wrap: wrap;
+    color: #000;
+    margin: 15px;
+    background-image: url(../public/phantom2.png);
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+.produit3{
+    width: 40vw;
+    height: 80vh;
+    flex-wrap: wrap;
+    color: #000;
+    margin: 15px;
+    background-image: url(../public/phantom3.png);
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+
+.produit4{
+    width: 40vw;
+    height: 80vh;
+    flex-wrap: wrap;
+    color: #000;
+    margin: 15px;
+    background-image: url(../public/phantom4.png);
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+
+.texte{
+    position: absolute;
+    bottom: 120px;
+    left: 20px;
+}
+
+
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: #000;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color:white;
+    color: #a8a8a8;
+    border: 1px solid grey;
+    /* transition: ease-in-out 1s; */
+    transition: ease-in 1s;
+   
+}
+
+
+
+/* MA TROISIEMES PARTIE <FOOTER> */
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.footer ul{
+  list-style-type: none;
+  align-items: center;
+}
+
+.footer li{
+  display: inline-block;
+  margin: 20px  130px;
+  color: white;
+  cursor: pointer;
+
+}
+
+.footer li:hover{
+  color: #a8a8a8;
+  transition: .5s;
+}
+
